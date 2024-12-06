@@ -1,0 +1,22 @@
+1)cuando se manda un mensaje a un cliente que no esta conctado, 
+	mostrar en mi chat  el mensaje de <cliente no disponible>  (con color).
+
+2)armar un comando para el chat (al igual que el /salir)
+	que permita ver el listado actual de clientes conectados.
+
+3)Cuando recibe un mensaje un usuario de un destinatarios especifico(MP)
+	marcar el mensaje en un color distintivo. hacer distincion de MP y mensaje GLOBAL
+	
+4)armar comando para banear mensajes de un cliente. Ayudarse del Thread VerificarLista, para desbanear
+	a los usuarios despues de un perido de tiempo (cuando se aplica un BAN (boolean) tambien se
+	debe aclarar el tiempo de ban en segundos (long) )
+
+5)armar control parental de malas palabras (min 5 palabras)
+
+6)verificacion de usuario duplicados (no permitir nickname duplicados, hay que usar HashMap en vez de LinkedList)
+
+7)ya qye el servidor puede ver todos los mensajes que pasan por el, agregar un cifrado de datos
+	deade el cliente para que no pueda ver el mensaje 
+	
+8)el servidor debe de poder ESCRIBIR MENSAJES POR LA CONSOLA para enviarle mensajes masivos a los
+	usuario conectados, o hablarle a un cliente en particular (los usuario no pueden hablarle al servidor  por MP)
